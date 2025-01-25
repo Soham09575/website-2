@@ -1,60 +1,72 @@
 body {
-   background-image: url('../img/brandbackimg.jpg');
+   background-image: url('../img/background.jpg');
    background-size: cover;
    background-position: center;
    height: 100vh;
    margin: 0;
  }
- .navbar{
-   width: 1200px;
-   height: 75px;
-   margin-left: 40px;
+ /* Navbar code */
+
+.navbar{
+  height: 75px;
+  margin-left: 70px;
+  margin-top: 8px;
 
 }
 .icon{
-   width: 100px;
-   float: left;
-   height: 50px;
-
+  
+  float: left;
+  height: 100px;
+  padding-top: 14px;
 }
 
+h2 
+{
+ font-size: 25px;
+ color: rgba(255, 255, 255, 0.911);
+}
+
+.logo img {
+ float: left;
+ margin-top: 20px;
+ width: 60px;
+ height: 60px;
+}
+
+/* Tab code */
 .menu{
-   width: 600px;
-   float: left;
-   height: 70px;
-   margin-left: 98px;
-  margin-right: -50px;
-  margin-top: 8px;
+ width: 600px;
+ float: left;
+ height: 70px;
+ margin-left: 90px;
+margin-right: -50px;
 }
 
 ul{
-   float: left;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
 
 }
 
 ul li{
-   list-style: none;
-   margin-left: 27px;
-   margin-top: 10px;
-   font-size: 13px;
+  list-style: none;
+  margin-left: 27px;
+  margin-top: 10px;
+  font-size: 23px;
+
 }
 
 ul li a{
-   text-decoration: none;
-   color:rgb(244, 237, 237)
-   ;
+  text-decoration: none;
+  color:rgb(244, 237, 237)
+  ;
 }
-.logo img{
-   float: left;
-   margin-top: 20px;
-   width: 40px;
-   height: auto;
-}
+
 ul li a:hover{
-   color: rgb(19, 223, 56);
+  color: rgb(19, 223, 56);
 }
 .srch{
    font-family: 'Times New Roman', Times, serif;
@@ -190,10 +202,7 @@ border-radius: 5px;
   border-radius: 5px;
 }
 
-h2 
-{
-  font-size: 20px;
-}
+
 .log
 {
   padding: 5px;
