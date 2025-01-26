@@ -1,28 +1,44 @@
 body{
-    background-image: url('perfum\ 1.jpg');
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
+   background-image: url('perfum\ 1.jpg');
+   background-size: cover;
+   height: 100vh;
+   background-position: center;
 }
+
+/* Navbar code */
+
 .navbar{
-    width: 1200px;
     height: 75px;
     margin-left: 40px;
 
 }
 .icon{
-    width: 100px;
+    
     float: left;
-    height: 50px;
+    height: 100px;
+    padding-top: 14px;
+}
+
+h2 
+{
+   font-size: 25px;
+}
+
+.logo img {
+   float: left;
+   margin-top: 20px;
+   width: 60px;
+   height: 60px;
 
 }
 
+/* Tab code */
 .menu{
-    width: 600px;
-    float: left;
-    height: 70px;
-    margin-left: 90px;
-   margin-right: -50px;
+   width: 600px;
+   float: left;
+   height: 70px;
+   margin-left: 90px;
+  margin-right: -50px;
 }
 
 ul{
@@ -30,6 +46,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px;
 
 }
 
@@ -37,7 +54,8 @@ ul li{
     list-style: none;
     margin-left: 27px;
     margin-top: 10px;
-    font-size: 13px;
+    font-size: 23px;
+
 }
 
 ul li a{
@@ -45,21 +63,21 @@ ul li a{
     color:rgb(244, 237, 237)
     ;
 }
- .logo img{
-    float: left;
-    margin-top: 20px;
-    width: 40px;
-    height: auto;
- }
+ 
  ul li a:hover{
     color: rgb(19, 223, 56);
+ }
+ /* Search  */
+ .search
+ {
+   margin-right:2px;
+   size: 20px;
  }
  .srch{
     font-family: 'Times New Roman', Times, serif;
     width: 120px;
     height: 30px;
     background: transparent;
-    float: left;
     border: 1px solid #ff7200;
     margin-top: 13px;
     color: rgb(231, 226, 219);
@@ -67,9 +85,11 @@ ul li a{
     font-size: 10px;
     padding: 10px;
     border-bottom-left-radius: 5px;
+    margin-left: 200px;
 
  }
  .btn{
+   margin: 5px;
     width: 80px;
     height: 30px;
     background: #ff7200;
@@ -87,12 +107,11 @@ ul li a{
     outline:none;
  }
  .content{
-    width: 1200px;
-    height: auto;
-    margin: auto;
+    margin: 80px;
     color: #fdf9f9;
     position: relative;
-    margin-left: -30px;
+    margin-left: 0px;
+    font-size: 35px;
  }
   
  .content .par{
@@ -129,12 +148,13 @@ ul li a{
 }
 
 form{
-   width: 200px;
+   width: 350px;
    padding: 30px;
    background-color: #24212187;
    border: 1px solid #ddd;
    border-radius: 15px;
    margin-top: 20vh;
+   margin-right: -590px;
 }
 .form-group{
    margin-bottom: 10px;
@@ -182,25 +202,27 @@ video{
 }
 #username {
  border-radius: 5px;
+ height: 10px;
 }
 #password
 {
    border-radius: 5px;
+ height: 10px;
+
 }
 
-h2 
-{
-   font-size: 20px;
-}
+
 .log
 {
-   padding: 5px;
-   padding-left: 13px;
-   padding-right: 13px;
+   padding:10px;
+   padding-left: 17px;
+   padding-right: 17px;
    border-radius: 5px;
    background-color: #ff7200;
    border: 2px solid black;
    box-shadow: 2px white;
+   font-size: 15px;
+   font-family: Arial black;
 }
 .heading
 {
